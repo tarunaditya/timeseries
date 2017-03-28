@@ -1,0 +1,6 @@
+CREATE TABLE weather (wban INT, dt STRING, wind INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ","
+LOCATION ‘/hive/data/weather’;
+
+
